@@ -1,0 +1,17 @@
+<h1 class="text-center">Добавление статьи</h1>
+<div class="col-sm-6 mx-auto my-3">
+    <form action="/handler/addArticleHandler.php" method="post">
+        <div class="mb-3">
+            <input type="text" name="title" placeholder="Заголовок" class="form-control">
+        </div>
+        <div class="mb-3">
+            <textarea class="form-control" name="content" placeholder="Контент"></textarea>
+        </div>
+        <div class="mb-3">
+            <input type="text" name="author" placeholder="Автор" class="form-control">
+        </div>
+        <div class="mb-3">
+            <input type="submit" class="form-control btn btn-primary" value="Добавиь статью">
+        </div>
+    </form>
+</div>
